@@ -6,7 +6,8 @@ metadata:
   name: ingress-playground
 spec:
   rules:
-  - http:
+  - host: app.local # ligne pour bonus uniquement
+    http:
       paths:
       - path: /
         pathType: Prefix
